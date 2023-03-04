@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: white;
+   
+    
+}
+
+#profile-pic {
+    width: 250px;
+    border-radius: 100%;
+    border: 6px solid #EFB0C9;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 2px black;
+}
+
+.bday-age {
+    background-color: #EFB0C9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 15px 0 10px 0;
+} 
+
+.bday-date {
+    background-color: #EFB0C9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption {
+    text-shadow: 0px 0px 2px black;
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+.small-caption {
+    text-shadow: 0px 0px 2px black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.gift-cover {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px black;
+    background-image: url("images/gift.PNG");
+    background-size: cover;
+}
+
+#p1:hover {
+    background-image: url("https://media.giphy.com/media/7zGmpJmwUp5lNFudOf/giphy.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#p2:hover {
+    background-image: url("https://media.giphy.com/media/5vYwHanb6y3HWBQIox/giphy.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#p3:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDg3YTRhZGZiZGM3Mjg2ZWZhNzY2YmQyZWYwOTNiNzE2ZjY0ODA1ZiZjdD1n/WqL4b92M9rRmKN29tI/giphy.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#p4:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2E5NjljYzM1YzJjM2ZmM2ZmMDVjZmIxOTFiNDNiMDg3OTcxNDZlMiZjdD1z/kHYRSwfIFWNkeiIl3Y/giphy.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#p5:hover {
+    background-image: url("images/Mo.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#p6:hover {
+    background-image: url("images/us.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.present {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
